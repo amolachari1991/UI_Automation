@@ -55,15 +55,8 @@ jobs:
           cp -R screenshots/ public/extent-reports/screenshots/
           ls -l
 
-
-
-  deploy:
-    name: Deploy
-    if: always()
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
       - name: Deploy to GitHub Pages
+        if: always()
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: public/extent-reports/
