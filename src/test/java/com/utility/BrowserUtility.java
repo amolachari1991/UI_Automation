@@ -108,7 +108,7 @@ public abstract class BrowserUtility {
             String timeStamp = dynamicTimeStampName();
             TakesScreenshot takesScreenshot =  (TakesScreenshot)driver.get();
             File src = takesScreenshot.getScreenshotAs(OutputType.FILE);
-            String path = System.getProperty("user.dir")+"\\screenshots\\"+timeStamp+"-"+name+".png";
+            String path = ".//screenshots//"+timeStamp+"-"+name+".png";
             File destination = new File(path);
             try {
                 FileUtils.copyFile(src, destination);

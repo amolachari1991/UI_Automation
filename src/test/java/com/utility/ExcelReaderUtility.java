@@ -13,7 +13,7 @@ import java.util.List;
 
 public class ExcelReaderUtility {
     public static Iterator<User> readExcel(String sheetName) {
-        File excelPath = new File(System.getProperty("user.dir")+"\\testData\\"+sheetName+".xlsx");
+        File excelPath = new File(".//testData//"+sheetName+".xlsx");
         XSSFWorkbook workbook = null;
         XSSFSheet sheet;
         Iterator<Row> rowInterator;

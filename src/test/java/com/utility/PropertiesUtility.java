@@ -9,7 +9,7 @@ import java.util.Properties;
 public class PropertiesUtility {
     public static String readProperty(Environments env, String property) {
         Properties properties = new Properties();
-        File environmentFilePath = new File(System.getProperty("user.dir") + "\\environments\\" + env + ".properties");
+        File environmentFilePath = new File(".//environments//" + env + ".properties");
         FileInputStream fis = null;
         try {
             fis = new FileInputStream(environmentFilePath);
