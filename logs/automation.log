@@ -1,104 +1,104 @@
-2026-03-19 13:06:45 [main] INFO com.listeners.TestListner::onStart::69 Test suite started
-2026-03-19 13:06:46 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::<init>::46 launching browser => CHROME
-2026-03-19 13:06:46 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::<init>::46 launching browser => CHROME
-2026-03-19 13:06:46 [TestNG-test-UI_Automation-2] INFO com.pages.HomePage::<init>::46 launching browser => CHROME
-2026-03-19 13:06:51 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::maximizeWindow::79 Maximizing browser window
-2026-03-19 13:06:51 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestStart::27 Method Name => loginCSVTest
-2026-03-19 13:06:51 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestStart::28 loginCSVTest Discription => verifies whether user able to login with valid credentials
-2026-03-19 13:06:51 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestStart::29 loginCSVTest Belongs To Groups => [smoke, e2e, sanity]
-2026-03-19 13:06:51 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::clickOn::83 clicking on locator => By.xpath: //*[contains(text(),"Sign in")]
-2026-03-19 13:06:52 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::clickOn::86 successfully clicked on locator => By.xpath: //*[contains(text(),"Sign in")]
-2026-03-19 13:06:52 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::enterText::89 entering text into locator By.id: email
-2026-03-19 13:06:52 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::enterText::92 text entered into locator By.id: email
-2026-03-19 13:06:52 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::enterText::89 entering text into locator By.id: passwd
-2026-03-19 13:06:52 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::enterText::92 text entered into locator By.id: passwd
-2026-03-19 13:06:52 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::clickOn::83 clicking on locator => By.id: SubmitLogin
-2026-03-19 13:06:53 [TestNG-test-UI_Automation-2] INFO com.pages.HomePage::maximizeWindow::79 Maximizing browser window
-2026-03-19 13:06:53 [TestNG-test-UI_Automation-2] INFO com.listeners.TestListner::onTestStart::27 Method Name => loginExcelTest
-2026-03-19 13:06:53 [TestNG-test-UI_Automation-2] INFO com.listeners.TestListner::onTestStart::28 loginExcelTest Discription => verifies whether user able to login with valid credentials
-2026-03-19 13:06:53 [TestNG-test-UI_Automation-2] INFO com.listeners.TestListner::onTestStart::29 loginExcelTest Belongs To Groups => [smoke, e2e, sanity]
-2026-03-19 13:06:53 [TestNG-test-UI_Automation-2] INFO com.pages.HomePage::clickOn::83 clicking on locator => By.xpath: //*[contains(text(),"Sign in")]
-2026-03-19 13:06:53 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::clickOn::86 successfully clicked on locator => By.id: SubmitLogin
-2026-03-19 13:06:53 [TestNG-test-UI_Automation-1] INFO com.pages.MyAccountPage::getText::95 getting text from locator => By.xpath: //*[contains(text(), 'Abc abc')]
-2026-03-19 13:06:53 [TestNG-test-UI_Automation-1] ERROR com.listeners.TestListner::onTestFailure::45 loginCSVTest FAILED
-2026-03-19 13:06:53 [TestNG-test-UI_Automation-1] ERROR com.listeners.TestListner::onTestFailure::46 no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'Abc abc')]"}
+2026-03-19 14:15:40 [main] INFO com.listeners.TestListner::onStart::69 Test suite started
+2026-03-19 14:15:41 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::<init>::46 launching browser => CHROME
+2026-03-19 14:15:41 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::<init>::46 launching browser => CHROME
+2026-03-19 14:15:42 [TestNG-test-UI_Automation-2] INFO com.pages.HomePage::<init>::46 launching browser => CHROME
+2026-03-19 14:15:50 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::maximizeWindow::79 Maximizing browser window
+2026-03-19 14:15:50 [TestNG-test-UI_Automation-3] INFO com.listeners.TestListner::onTestStart::27 Method Name => loginTest
+2026-03-19 14:15:50 [TestNG-test-UI_Automation-3] INFO com.listeners.TestListner::onTestStart::28 loginTest Discription => verifies whether user able to login with valid credentials
+2026-03-19 14:15:50 [TestNG-test-UI_Automation-3] INFO com.listeners.TestListner::onTestStart::29 loginTest Belongs To Groups => [smoke, e2e, sanity]
+2026-03-19 14:15:50 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::clickOn::83 clicking on locator => By.xpath: //*[contains(text(),"Sign in")]
+2026-03-19 14:15:51 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::maximizeWindow::79 Maximizing browser window
+2026-03-19 14:15:51 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestStart::27 Method Name => loginCSVTest
+2026-03-19 14:15:51 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestStart::28 loginCSVTest Discription => verifies whether user able to login with valid credentials
+2026-03-19 14:15:51 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestStart::29 loginCSVTest Belongs To Groups => [smoke, e2e, sanity]
+2026-03-19 14:15:51 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::clickOn::83 clicking on locator => By.xpath: //*[contains(text(),"Sign in")]
+2026-03-19 14:15:51 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::clickOn::86 successfully clicked on locator => By.xpath: //*[contains(text(),"Sign in")]
+2026-03-19 14:15:51 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::enterText::89 entering text into locator By.id: email
+2026-03-19 14:15:52 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::clickOn::86 successfully clicked on locator => By.xpath: //*[contains(text(),"Sign in")]
+2026-03-19 14:15:52 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::enterText::89 entering text into locator By.id: email
+2026-03-19 14:15:52 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::enterText::92 text entered into locator By.id: email
+2026-03-19 14:15:52 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::enterText::89 entering text into locator By.id: passwd
+2026-03-19 14:15:52 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::enterText::92 text entered into locator By.id: passwd
+2026-03-19 14:15:52 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::clickOn::83 clicking on locator => By.id: SubmitLogin
+2026-03-19 14:15:52 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::enterText::92 text entered into locator By.id: email
+2026-03-19 14:15:52 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::enterText::89 entering text into locator By.id: passwd
+2026-03-19 14:15:52 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::enterText::92 text entered into locator By.id: passwd
+2026-03-19 14:15:52 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::clickOn::83 clicking on locator => By.id: SubmitLogin
+2026-03-19 14:15:53 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::clickOn::86 successfully clicked on locator => By.id: SubmitLogin
+2026-03-19 14:15:53 [TestNG-test-UI_Automation-3] INFO com.pages.MyAccountPage::getText::95 getting text from locator => By.xpath: //*[contains(text(), 'Abc abc')]
+2026-03-19 14:15:53 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::clickOn::86 successfully clicked on locator => By.id: SubmitLogin
+2026-03-19 14:15:53 [TestNG-test-UI_Automation-1] INFO com.pages.MyAccountPage::getText::95 getting text from locator => By.xpath: //*[contains(text(), 'Abc abc')]
+2026-03-19 14:15:53 [TestNG-test-UI_Automation-3] ERROR com.listeners.TestListner::onTestFailure::45 loginTest FAILED
+2026-03-19 14:15:53 [TestNG-test-UI_Automation-3] ERROR com.listeners.TestListner::onTestFailure::46 no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'Abc abc')]"}
   (Session info: chrome=146.0.7680.80)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.28.0', revision: 'ac342546e9'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [498e98abc0589b1cae60ceabb9e15bd9, findElement {value=//*[contains(text(), 'Abc abc')], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 145.0.7632.76 (ee36f024f43a..., userDataDir: C:\Users\A20008~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52365}, goog:processID: 1392, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52365/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 498e98abc0589b1cae60ceabb9e15bd9
-2026-03-19 13:06:53 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestFailure::55 capturing screenshot for faild method
-2026-03-19 13:06:53 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestFailure::57 Attaching scrrenshot to extentreport
-2026-03-19 13:06:53 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::quitBrowser::123 quitting browser
-2026-03-19 13:06:53 [TestNG-test-UI_Automation-2] INFO com.pages.HomePage::clickOn::86 successfully clicked on locator => By.xpath: //*[contains(text(),"Sign in")]
-2026-03-19 13:06:53 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::enterText::89 entering text into locator By.id: email
-2026-03-19 13:06:54 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::enterText::92 text entered into locator By.id: email
-2026-03-19 13:06:54 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::enterText::89 entering text into locator By.id: passwd
-2026-03-19 13:06:54 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::enterText::92 text entered into locator By.id: passwd
-2026-03-19 13:06:54 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::clickOn::83 clicking on locator => By.id: SubmitLogin
-2026-03-19 13:06:55 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::maximizeWindow::79 Maximizing browser window
-2026-03-19 13:06:55 [TestNG-test-UI_Automation-3] INFO com.listeners.TestListner::onTestStart::27 Method Name => loginTest
-2026-03-19 13:06:55 [TestNG-test-UI_Automation-3] INFO com.listeners.TestListner::onTestStart::28 loginTest Discription => verifies whether user able to login with valid credentials
-2026-03-19 13:06:55 [TestNG-test-UI_Automation-3] INFO com.listeners.TestListner::onTestStart::29 loginTest Belongs To Groups => [smoke, e2e, sanity]
-2026-03-19 13:06:55 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::clickOn::83 clicking on locator => By.xpath: //*[contains(text(),"Sign in")]
-2026-03-19 13:06:55 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::clickOn::86 successfully clicked on locator => By.id: SubmitLogin
-2026-03-19 13:06:55 [TestNG-test-UI_Automation-2] INFO com.pages.MyAccountPage::getText::95 getting text from locator => By.xpath: //*[contains(text(), 'Abc abc')]
-2026-03-19 13:06:55 [TestNG-test-UI_Automation-2] INFO com.listeners.TestListner::onTestSuccess::39 loginExcelTest PASSED
-2026-03-19 13:06:55 [TestNG-test-UI_Automation-2] INFO com.pages.HomePage::quitBrowser::123 quitting browser
-2026-03-19 13:06:55 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::<init>::46 launching browser => CHROME
-2026-03-19 13:06:55 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::clickOn::86 successfully clicked on locator => By.xpath: //*[contains(text(),"Sign in")]
-2026-03-19 13:06:55 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::enterText::89 entering text into locator By.id: email
-2026-03-19 13:06:56 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::enterText::92 text entered into locator By.id: email
-2026-03-19 13:06:56 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::enterText::89 entering text into locator By.id: passwd
-2026-03-19 13:06:56 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::enterText::92 text entered into locator By.id: passwd
-2026-03-19 13:06:56 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::clickOn::83 clicking on locator => By.id: SubmitLogin
-2026-03-19 13:06:56 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::clickOn::86 successfully clicked on locator => By.id: SubmitLogin
-2026-03-19 13:06:56 [TestNG-test-UI_Automation-3] INFO com.pages.MyAccountPage::getText::95 getting text from locator => By.xpath: //*[contains(text(), 'Abc abc')]
-2026-03-19 13:06:56 [TestNG-test-UI_Automation-3] ERROR com.listeners.TestListner::onTestFailure::45 loginTest FAILED
-2026-03-19 13:06:56 [TestNG-test-UI_Automation-3] ERROR com.listeners.TestListner::onTestFailure::46 no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'Abc abc')]"}
+Command: [f75f0d5636da546a89e18198a1062af1, findElement {using=xpath, value=//*[contains(text(), 'Abc abc')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 145.0.7632.76 (ee36f024f43a..., userDataDir: C:\Users\A20008~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58461}, goog:processID: 30964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58461/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f75f0d5636da546a89e18198a1062af1
+2026-03-19 14:15:53 [TestNG-test-UI_Automation-1] ERROR com.listeners.TestListner::onTestFailure::45 loginCSVTest FAILED
+2026-03-19 14:15:53 [TestNG-test-UI_Automation-1] ERROR com.listeners.TestListner::onTestFailure::46 no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), 'Abc abc')]"}
   (Session info: chrome=146.0.7680.80)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.28.0', revision: 'ac342546e9'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [29e15bb64609614fea26830d2ac7ba3d, findElement {value=//*[contains(text(), 'Abc abc')], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 145.0.7632.76 (ee36f024f43a..., userDataDir: C:\Users\A20008~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52364}, goog:processID: 29052, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52364/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 29e15bb64609614fea26830d2ac7ba3d
-2026-03-19 13:06:56 [TestNG-test-UI_Automation-3] INFO com.listeners.TestListner::onTestFailure::55 capturing screenshot for faild method
-2026-03-19 13:06:56 [TestNG-test-UI_Automation-3] INFO com.listeners.TestListner::onTestFailure::57 Attaching scrrenshot to extentreport
-2026-03-19 13:06:56 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::quitBrowser::123 quitting browser
-2026-03-19 13:06:57 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::<init>::46 launching browser => CHROME
-2026-03-19 13:07:03 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::maximizeWindow::79 Maximizing browser window
-2026-03-19 13:07:03 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestStart::27 Method Name => loginCSVTest
-2026-03-19 13:07:03 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestStart::28 loginCSVTest Discription => verifies whether user able to login with valid credentials
-2026-03-19 13:07:03 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestStart::29 loginCSVTest Belongs To Groups => [smoke, e2e, sanity]
-2026-03-19 13:07:03 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::clickOn::83 clicking on locator => By.xpath: //*[contains(text(),"Sign in")]
-2026-03-19 13:07:05 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::clickOn::86 successfully clicked on locator => By.xpath: //*[contains(text(),"Sign in")]
-2026-03-19 13:07:05 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::enterText::89 entering text into locator By.id: email
-2026-03-19 13:07:05 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::maximizeWindow::79 Maximizing browser window
-2026-03-19 13:07:05 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::enterText::92 text entered into locator By.id: email
-2026-03-19 13:07:05 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::enterText::89 entering text into locator By.id: passwd
-2026-03-19 13:07:05 [TestNG-test-UI_Automation-3] INFO com.listeners.TestListner::onTestStart::27 Method Name => loginTest
-2026-03-19 13:07:05 [TestNG-test-UI_Automation-3] INFO com.listeners.TestListner::onTestStart::28 loginTest Discription => verifies whether user able to login with valid credentials
-2026-03-19 13:07:05 [TestNG-test-UI_Automation-3] INFO com.listeners.TestListner::onTestStart::29 loginTest Belongs To Groups => [smoke, e2e, sanity]
-2026-03-19 13:07:05 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::clickOn::83 clicking on locator => By.xpath: //*[contains(text(),"Sign in")]
-2026-03-19 13:07:05 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::enterText::92 text entered into locator By.id: passwd
-2026-03-19 13:07:05 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::clickOn::83 clicking on locator => By.id: SubmitLogin
-2026-03-19 13:07:06 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::clickOn::86 successfully clicked on locator => By.xpath: //*[contains(text(),"Sign in")]
-2026-03-19 13:07:06 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::enterText::89 entering text into locator By.id: email
-2026-03-19 13:07:06 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::clickOn::86 successfully clicked on locator => By.id: SubmitLogin
-2026-03-19 13:07:06 [TestNG-test-UI_Automation-1] INFO com.pages.MyAccountPage::getText::95 getting text from locator => By.xpath: //*[contains(text(), 'Abc abc')]
-2026-03-19 13:07:06 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestSuccess::39 loginCSVTest PASSED
-2026-03-19 13:07:06 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::quitBrowser::123 quitting browser
-2026-03-19 13:07:06 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::enterText::92 text entered into locator By.id: email
-2026-03-19 13:07:06 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::enterText::89 entering text into locator By.id: passwd
-2026-03-19 13:07:06 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::enterText::92 text entered into locator By.id: passwd
-2026-03-19 13:07:06 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::clickOn::83 clicking on locator => By.id: SubmitLogin
-2026-03-19 13:07:07 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::clickOn::86 successfully clicked on locator => By.id: SubmitLogin
-2026-03-19 13:07:07 [TestNG-test-UI_Automation-3] INFO com.pages.MyAccountPage::getText::95 getting text from locator => By.xpath: //*[contains(text(), 'Abc abc')]
-2026-03-19 13:07:07 [TestNG-test-UI_Automation-3] INFO com.listeners.TestListner::onTestSuccess::39 loginTest PASSED
-2026-03-19 13:07:07 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::quitBrowser::123 quitting browser
-2026-03-19 13:07:08 [main] INFO com.listeners.TestListner::onFinish::74 Test suite completed
+Command: [432502274037dd54beb861daa647beb7, findElement {using=xpath, value=//*[contains(text(), 'Abc abc')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.80, chrome: {chromedriverVersion: 145.0.7632.76 (ee36f024f43a..., userDataDir: C:\Users\A20008~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58462}, goog:processID: 31832, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58462/devtoo..., se:cdpVersion: 146.0.7680.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 432502274037dd54beb861daa647beb7
+2026-03-19 14:15:53 [TestNG-test-UI_Automation-3] INFO com.listeners.TestListner::onTestFailure::55 capturing screenshot for faild method
+2026-03-19 14:15:53 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestFailure::55 capturing screenshot for faild method
+2026-03-19 14:15:53 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestFailure::57 Attaching scrrenshot to extentreport
+2026-03-19 14:15:53 [TestNG-test-UI_Automation-2] INFO com.pages.HomePage::maximizeWindow::79 Maximizing browser window
+2026-03-19 14:15:53 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::quitBrowser::123 quitting browser
+2026-03-19 14:15:53 [TestNG-test-UI_Automation-3] INFO com.listeners.TestListner::onTestFailure::57 Attaching scrrenshot to extentreport
+2026-03-19 14:15:53 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::quitBrowser::123 quitting browser
+2026-03-19 14:15:53 [TestNG-test-UI_Automation-2] INFO com.listeners.TestListner::onTestStart::27 Method Name => loginExcelTest
+2026-03-19 14:15:53 [TestNG-test-UI_Automation-2] INFO com.listeners.TestListner::onTestStart::28 loginExcelTest Discription => verifies whether user able to login with valid credentials
+2026-03-19 14:15:53 [TestNG-test-UI_Automation-2] INFO com.listeners.TestListner::onTestStart::29 loginExcelTest Belongs To Groups => [smoke, e2e, sanity]
+2026-03-19 14:15:53 [TestNG-test-UI_Automation-2] INFO com.pages.HomePage::clickOn::83 clicking on locator => By.xpath: //*[contains(text(),"Sign in")]
+2026-03-19 14:15:54 [TestNG-test-UI_Automation-2] INFO com.pages.HomePage::clickOn::86 successfully clicked on locator => By.xpath: //*[contains(text(),"Sign in")]
+2026-03-19 14:15:54 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::enterText::89 entering text into locator By.id: email
+2026-03-19 14:15:54 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::enterText::92 text entered into locator By.id: email
+2026-03-19 14:15:54 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::enterText::89 entering text into locator By.id: passwd
+2026-03-19 14:15:54 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::enterText::92 text entered into locator By.id: passwd
+2026-03-19 14:15:54 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::clickOn::83 clicking on locator => By.id: SubmitLogin
+2026-03-19 14:15:55 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::clickOn::86 successfully clicked on locator => By.id: SubmitLogin
+2026-03-19 14:15:55 [TestNG-test-UI_Automation-2] INFO com.pages.MyAccountPage::getText::95 getting text from locator => By.xpath: //*[contains(text(), 'Abc abc')]
+2026-03-19 14:15:55 [TestNG-test-UI_Automation-2] INFO com.listeners.TestListner::onTestSuccess::39 loginExcelTest PASSED
+2026-03-19 14:15:55 [TestNG-test-UI_Automation-2] INFO com.pages.HomePage::quitBrowser::123 quitting browser
+2026-03-19 14:15:55 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::<init>::46 launching browser => CHROME
+2026-03-19 14:15:55 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::<init>::46 launching browser => CHROME
+2026-03-19 14:16:01 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::maximizeWindow::79 Maximizing browser window
+2026-03-19 14:16:02 [TestNG-test-UI_Automation-3] INFO com.listeners.TestListner::onTestStart::27 Method Name => loginTest
+2026-03-19 14:16:02 [TestNG-test-UI_Automation-3] INFO com.listeners.TestListner::onTestStart::28 loginTest Discription => verifies whether user able to login with valid credentials
+2026-03-19 14:16:02 [TestNG-test-UI_Automation-3] INFO com.listeners.TestListner::onTestStart::29 loginTest Belongs To Groups => [smoke, e2e, sanity]
+2026-03-19 14:16:02 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::clickOn::83 clicking on locator => By.xpath: //*[contains(text(),"Sign in")]
+2026-03-19 14:16:02 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::maximizeWindow::79 Maximizing browser window
+2026-03-19 14:16:02 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestStart::27 Method Name => loginCSVTest
+2026-03-19 14:16:02 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestStart::28 loginCSVTest Discription => verifies whether user able to login with valid credentials
+2026-03-19 14:16:02 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestStart::29 loginCSVTest Belongs To Groups => [smoke, e2e, sanity]
+2026-03-19 14:16:02 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::clickOn::83 clicking on locator => By.xpath: //*[contains(text(),"Sign in")]
+2026-03-19 14:16:02 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::clickOn::86 successfully clicked on locator => By.xpath: //*[contains(text(),"Sign in")]
+2026-03-19 14:16:02 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::enterText::89 entering text into locator By.id: email
+2026-03-19 14:16:02 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::clickOn::86 successfully clicked on locator => By.xpath: //*[contains(text(),"Sign in")]
+2026-03-19 14:16:02 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::enterText::89 entering text into locator By.id: email
+2026-03-19 14:16:02 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::enterText::92 text entered into locator By.id: email
+2026-03-19 14:16:02 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::enterText::89 entering text into locator By.id: passwd
+2026-03-19 14:16:03 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::enterText::92 text entered into locator By.id: passwd
+2026-03-19 14:16:03 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::clickOn::83 clicking on locator => By.id: SubmitLogin
+2026-03-19 14:16:03 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::enterText::92 text entered into locator By.id: email
+2026-03-19 14:16:03 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::enterText::89 entering text into locator By.id: passwd
+2026-03-19 14:16:03 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::enterText::92 text entered into locator By.id: passwd
+2026-03-19 14:16:03 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::clickOn::83 clicking on locator => By.id: SubmitLogin
+2026-03-19 14:16:04 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::clickOn::86 successfully clicked on locator => By.id: SubmitLogin
+2026-03-19 14:16:04 [TestNG-test-UI_Automation-1] INFO com.pages.MyAccountPage::getText::95 getting text from locator => By.xpath: //*[contains(text(), 'Abc abc')]
+2026-03-19 14:16:04 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::clickOn::86 successfully clicked on locator => By.id: SubmitLogin
+2026-03-19 14:16:04 [TestNG-test-UI_Automation-3] INFO com.pages.MyAccountPage::getText::95 getting text from locator => By.xpath: //*[contains(text(), 'Abc abc')]
+2026-03-19 14:16:04 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestSuccess::39 loginCSVTest PASSED
+2026-03-19 14:16:04 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::quitBrowser::123 quitting browser
+2026-03-19 14:16:04 [TestNG-test-UI_Automation-3] INFO com.listeners.TestListner::onTestSuccess::39 loginTest PASSED
+2026-03-19 14:16:04 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::quitBrowser::123 quitting browser
+2026-03-19 14:16:04 [main] INFO com.listeners.TestListner::onFinish::74 Test suite completed
