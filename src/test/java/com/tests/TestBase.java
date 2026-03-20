@@ -1,10 +1,13 @@
 package com.tests;
 
 import com.constants.Browsers;
+import com.constants.Environments;
 import com.pages.HomePage;
+import com.pages.MyAccountPage;
 import com.utility.BrowserUtility;
 import com.utility.LambdaTestUtility;
 import com.utility.LoggerUtility;
+import com.utility.PropertiesUtility;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
@@ -21,13 +24,15 @@ public class TestBase {
     protected HomePage homePage;
     Logger logger = LoggerUtility.getLogger(this.getClass());
     private boolean isLambdaTest  ;
+    public static MyAccountPage myAccountPage;
+
 
     @Parameters({"browser","isLambdaTest", "isHeadless" })
     @BeforeMethod(description = "Loads the homepage of website")
     public void setUp(
             @Optional("chrome") String browser,
             @Optional("false") boolean isLambdaTest,
-            @Optional("true") boolean isHeadless, ITestResult result) throws FileNotFoundException {
+            @Optional("false") boolean isHeadless, ITestResult result) throws FileNotFoundException {
         this.isLambdaTest = isLambdaTest;
         WebDriver lambdaDriver;
         if(isLambdaTest){
@@ -36,6 +41,9 @@ public class TestBase {
         }else {
             homePage = new HomePage(Browsers.valueOf(browser.toUpperCase()), isHeadless);
         }
+    }
+    public void myAccountPage() {
+        myAccountPage = homePage.goToLoginPage().doLogInWith(PropertiesUtility.readProperty(Environments.QA, "EMAIL"), PropertiesUtility.readProperty(Environments.QA, "PASSWARD"));
     }
     @AfterMethod(description = "close all browser instances")
     public void tearDown() {

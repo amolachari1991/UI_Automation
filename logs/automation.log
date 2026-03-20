@@ -1,18 +1,184 @@
-2026-03-20 11:12:40 [main] INFO com.listeners.TestListner::onStart::69 Test suite started
-2026-03-20 11:12:42 [main] INFO com.pages.HomePage::<init>::46 launching browser => CHROME
-2026-03-20 11:12:47 [main] INFO com.pages.HomePage::maximizeWindow::79 Maximizing browser window
-2026-03-20 11:12:47 [main] INFO com.listeners.TestListner::onTestStart::27 Method Name => loginExcelTest
-2026-03-20 11:12:47 [main] INFO com.listeners.TestListner::onTestStart::28 loginExcelTest Discription => verifies whether user able to login with valid credentials
-2026-03-20 11:12:47 [main] INFO com.listeners.TestListner::onTestStart::29 loginExcelTest Belongs To Groups => [smoke, e2e, sanity]
-2026-03-20 11:12:47 [main] INFO com.pages.HomePage::clickOn::83 clicking on locator => By.xpath: //*[contains(text(),"Sign in")]
-2026-03-20 11:12:48 [main] INFO com.pages.HomePage::clickOn::86 successfully clicked on locator => By.xpath: //*[contains(text(),"Sign in")]
-2026-03-20 11:12:48 [main] INFO com.pages.LoginPage::enterText::89 entering text into locator By.id: email
-2026-03-20 11:12:48 [main] INFO com.pages.LoginPage::enterText::92 text entered into locator By.id: email
-2026-03-20 11:12:48 [main] INFO com.pages.LoginPage::enterText::89 entering text into locator By.id: passwd
-2026-03-20 11:12:48 [main] INFO com.pages.LoginPage::enterText::92 text entered into locator By.id: passwd
-2026-03-20 11:12:48 [main] INFO com.pages.LoginPage::clickOn::83 clicking on locator => By.id: SubmitLogin
-2026-03-20 11:12:49 [main] INFO com.pages.LoginPage::clickOn::86 successfully clicked on locator => By.id: SubmitLogin
-2026-03-20 11:12:49 [main] INFO com.pages.MyAccountPage::getText::95 getting text from locator => By.xpath: //*[contains(text(), 'Abc abc')]
-2026-03-20 11:12:49 [main] INFO com.listeners.TestListner::onTestSuccess::39 loginExcelTest PASSED
-2026-03-20 11:12:49 [main] INFO com.pages.HomePage::quitBrowser::123 quitting browser
-2026-03-20 11:12:49 [main] INFO com.listeners.TestListner::onFinish::74 Test suite completed
+2026-03-29 22:27:38 [main] INFO com.listeners.TestListner::onStart::69 Test suite started
+2026-03-29 22:27:39 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::<init>::44 launching browser => CHROME
+2026-03-29 22:27:39 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::<init>::44 launching browser => CHROME
+2026-03-29 22:27:40 [TestNG-test-UI_Automation-2] INFO com.pages.HomePage::<init>::44 launching browser => CHROME
+2026-03-29 22:27:49 [TestNG-test-UI_Automation-2] INFO com.pages.HomePage::maximizeWindow::82 Maximizing browser window
+2026-03-29 22:27:49 [TestNG-test-UI_Automation-2] INFO com.listeners.TestListner::onTestStart::27 Method Name => loginExcelTest
+2026-03-29 22:27:49 [TestNG-test-UI_Automation-2] INFO com.listeners.TestListner::onTestStart::28 loginExcelTest Discription => verifies whether user able to login with valid credentials
+2026-03-29 22:27:49 [TestNG-test-UI_Automation-2] INFO com.listeners.TestListner::onTestStart::29 loginExcelTest Belongs To Groups => [smoke, e2e, sanity]
+2026-03-29 22:27:49 [TestNG-test-UI_Automation-2] INFO com.pages.HomePage::clickOn::100 clicking on locator => By.xpath: //*[contains(text(),"Sign in")]
+2026-03-29 22:27:49 [TestNG-test-UI_Automation-2] INFO com.pages.HomePage::clickOn::103 successfully clicked on locator => By.xpath: //*[contains(text(),"Sign in")]
+2026-03-29 22:27:49 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::clearInputField::114 clearing the previous text from inputfield By.id: email
+2026-03-29 22:27:50 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::clearInputField::117 text field cleard
+2026-03-29 22:27:50 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::enterText::122 entering text into locator By.id: email
+2026-03-29 22:27:50 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::enterText::125 text entered into locator By.id: email
+2026-03-29 22:27:50 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::clearInputField::114 clearing the previous text from inputfield By.id: passwd
+2026-03-29 22:27:50 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::clearInputField::117 text field cleard
+2026-03-29 22:27:50 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::enterText::122 entering text into locator By.id: passwd
+2026-03-29 22:27:50 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::enterText::125 text entered into locator By.id: passwd
+2026-03-29 22:27:50 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::clickOn::100 clicking on locator => By.id: SubmitLogin
+2026-03-29 22:27:50 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::maximizeWindow::82 Maximizing browser window
+2026-03-29 22:27:50 [TestNG-test-UI_Automation-3] INFO com.listeners.TestListner::onTestStart::27 Method Name => loginTest
+2026-03-29 22:27:50 [TestNG-test-UI_Automation-3] INFO com.listeners.TestListner::onTestStart::28 loginTest Discription => verifies whether user able to login with valid credentials
+2026-03-29 22:27:50 [TestNG-test-UI_Automation-3] INFO com.listeners.TestListner::onTestStart::29 loginTest Belongs To Groups => [smoke, e2e, sanity]
+2026-03-29 22:27:50 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::clickOn::100 clicking on locator => By.xpath: //*[contains(text(),"Sign in")]
+2026-03-29 22:27:51 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::clickOn::103 successfully clicked on locator => By.id: SubmitLogin
+2026-03-29 22:27:51 [TestNG-test-UI_Automation-2] INFO com.pages.MyAccountPage::getText::136 getting text from locator => By.xpath: //*[contains(text(), 'Abc abc')]
+2026-03-29 22:27:51 [TestNG-test-UI_Automation-2] INFO com.listeners.TestListner::onTestSuccess::39 loginExcelTest PASSED
+2026-03-29 22:27:51 [TestNG-test-UI_Automation-2] INFO com.pages.HomePage::quitBrowser::188 quitting browser
+2026-03-29 22:27:51 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::maximizeWindow::82 Maximizing browser window
+2026-03-29 22:27:51 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestStart::27 Method Name => loginCSVTest
+2026-03-29 22:27:51 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestStart::28 loginCSVTest Discription => verifies whether user able to login with valid credentials
+2026-03-29 22:27:51 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestStart::29 loginCSVTest Belongs To Groups => [smoke, e2e, sanity]
+2026-03-29 22:27:51 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::clickOn::100 clicking on locator => By.xpath: //*[contains(text(),"Sign in")]
+2026-03-29 22:27:52 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::clickOn::103 successfully clicked on locator => By.xpath: //*[contains(text(),"Sign in")]
+2026-03-29 22:27:52 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::clearInputField::114 clearing the previous text from inputfield By.id: email
+2026-03-29 22:27:52 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::clearInputField::117 text field cleard
+2026-03-29 22:27:52 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::enterText::122 entering text into locator By.id: email
+2026-03-29 22:27:52 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::enterText::125 text entered into locator By.id: email
+2026-03-29 22:27:52 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::clearInputField::114 clearing the previous text from inputfield By.id: passwd
+2026-03-29 22:27:52 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::clickOn::103 successfully clicked on locator => By.xpath: //*[contains(text(),"Sign in")]
+2026-03-29 22:27:52 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::clearInputField::114 clearing the previous text from inputfield By.id: email
+2026-03-29 22:27:52 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::clearInputField::117 text field cleard
+2026-03-29 22:27:52 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::enterText::122 entering text into locator By.id: passwd
+2026-03-29 22:27:52 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::clearInputField::117 text field cleard
+2026-03-29 22:27:52 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::enterText::122 entering text into locator By.id: email
+2026-03-29 22:27:53 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::enterText::125 text entered into locator By.id: passwd
+2026-03-29 22:27:53 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::clickOn::100 clicking on locator => By.id: SubmitLogin
+2026-03-29 22:27:53 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::enterText::125 text entered into locator By.id: email
+2026-03-29 22:27:53 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::clearInputField::114 clearing the previous text from inputfield By.id: passwd
+2026-03-29 22:27:53 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::clearInputField::117 text field cleard
+2026-03-29 22:27:53 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::enterText::122 entering text into locator By.id: passwd
+2026-03-29 22:27:53 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::enterText::125 text entered into locator By.id: passwd
+2026-03-29 22:27:53 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::clickOn::100 clicking on locator => By.id: SubmitLogin
+2026-03-29 22:27:53 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::clickOn::103 successfully clicked on locator => By.id: SubmitLogin
+2026-03-29 22:27:53 [TestNG-test-UI_Automation-1] INFO com.pages.MyAccountPage::getText::136 getting text from locator => By.xpath: //*[contains(text(), 'Abc abc')]
+2026-03-29 22:27:53 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestSuccess::39 loginCSVTest PASSED
+2026-03-29 22:27:53 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::quitBrowser::188 quitting browser
+2026-03-29 22:27:54 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::clickOn::103 successfully clicked on locator => By.id: SubmitLogin
+2026-03-29 22:27:54 [TestNG-test-UI_Automation-3] INFO com.pages.MyAccountPage::getText::136 getting text from locator => By.xpath: //*[contains(text(), 'Abc abc')]
+2026-03-29 22:27:54 [TestNG-test-UI_Automation-3] INFO com.listeners.TestListner::onTestSuccess::39 loginTest PASSED
+2026-03-29 22:27:54 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::quitBrowser::188 quitting browser
+2026-03-29 22:27:54 [TestNG-test-UI_Automation-2] INFO com.pages.HomePage::<init>::44 launching browser => CHROME
+2026-03-29 22:27:55 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::<init>::44 launching browser => CHROME
+2026-03-29 22:27:56 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::<init>::44 launching browser => CHROME
+2026-03-29 22:28:01 [TestNG-test-UI_Automation-2] INFO com.pages.HomePage::maximizeWindow::82 Maximizing browser window
+2026-03-29 22:28:02 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::maximizeWindow::82 Maximizing browser window
+2026-03-29 22:28:05 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::maximizeWindow::82 Maximizing browser window
+2026-03-29 22:28:05 [TestNG-test-UI_Automation-3] INFO com.listeners.TestListner::onTestStart::27 Method Name => productCheckoutTest
+2026-03-29 22:28:05 [TestNG-test-UI_Automation-3] INFO com.listeners.TestListner::onTestStart::28 productCheckoutTest Discription => To checkout the searched product
+2026-03-29 22:28:05 [TestNG-test-UI_Automation-3] INFO com.listeners.TestListner::onTestStart::29 productCheckoutTest Belongs To Groups => [smoke, e2e, sanity]
+2026-03-29 22:28:05 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::clickOn::100 clicking on locator => By.xpath: //*[contains(text(),"Sign in")]
+2026-03-29 22:28:05 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestStart::27 Method Name => invalidLoginTest
+2026-03-29 22:28:05 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestStart::28 invalidLoginTest Discription => verifies whether user able to login with valid credentials
+2026-03-29 22:28:05 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestStart::29 invalidLoginTest Belongs To Groups => [smoke, e2e, sanity]
+2026-03-29 22:28:05 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::clickOn::100 clicking on locator => By.xpath: //*[contains(text(),"Sign in")]
+2026-03-29 22:28:05 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::clickOn::103 successfully clicked on locator => By.xpath: //*[contains(text(),"Sign in")]
+2026-03-29 22:28:05 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::clearInputField::114 clearing the previous text from inputfield By.id: email
+2026-03-29 22:28:05 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::clearInputField::117 text field cleard
+2026-03-29 22:28:05 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::enterText::122 entering text into locator By.id: email
+2026-03-29 22:28:06 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::clickOn::103 successfully clicked on locator => By.xpath: //*[contains(text(),"Sign in")]
+2026-03-29 22:28:06 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::clearInputField::114 clearing the previous text from inputfield By.id: email
+2026-03-29 22:28:06 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::enterText::125 text entered into locator By.id: email
+2026-03-29 22:28:06 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::clearInputField::114 clearing the previous text from inputfield By.id: passwd
+2026-03-29 22:28:06 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::clearInputField::117 text field cleard
+2026-03-29 22:28:06 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::enterText::122 entering text into locator By.id: passwd
+2026-03-29 22:28:06 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::clearInputField::117 text field cleard
+2026-03-29 22:28:06 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::enterText::122 entering text into locator By.id: email
+2026-03-29 22:28:06 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::enterText::125 text entered into locator By.id: passwd
+2026-03-29 22:28:06 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::clickOn::100 clicking on locator => By.id: SubmitLogin
+2026-03-29 22:28:06 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::enterText::125 text entered into locator By.id: email
+2026-03-29 22:28:06 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::clearInputField::114 clearing the previous text from inputfield By.id: passwd
+2026-03-29 22:28:06 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::clearInputField::117 text field cleard
+2026-03-29 22:28:06 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::enterText::122 entering text into locator By.id: passwd
+2026-03-29 22:28:06 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::enterText::125 text entered into locator By.id: passwd
+2026-03-29 22:28:06 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::clickOn::100 clicking on locator => By.id: SubmitLogin
+2026-03-29 22:28:07 [TestNG-test-UI_Automation-3] INFO com.pages.LoginPage::clickOn::103 successfully clicked on locator => By.id: SubmitLogin
+2026-03-29 22:28:07 [TestNG-test-UI_Automation-3] INFO com.pages.MyAccountPage::clearInputField::114 clearing the previous text from inputfield By.xpath: //*[@id="search_query_top"]
+2026-03-29 22:28:07 [TestNG-test-UI_Automation-3] INFO com.pages.MyAccountPage::clearInputField::117 text field cleard
+2026-03-29 22:28:07 [TestNG-test-UI_Automation-3] INFO com.pages.MyAccountPage::enterText::122 entering text into locator By.xpath: //*[@id="search_query_top"]
+2026-03-29 22:28:07 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::clickOn::103 successfully clicked on locator => By.id: SubmitLogin
+2026-03-29 22:28:07 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::getText::136 getting text from locator => By.xpath: //*[contains(@class, "alert-danger")]//li
+2026-03-29 22:28:07 [TestNG-test-UI_Automation-3] INFO com.pages.MyAccountPage::enterText::125 text entered into locator By.xpath: //*[@id="search_query_top"]
+2026-03-29 22:28:07 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestSuccess::39 invalidLoginTest PASSED
+2026-03-29 22:28:07 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::quitBrowser::188 quitting browser
+2026-03-29 22:28:07 [TestNG-test-UI_Automation-3] INFO com.pages.MyAccountPage::enterSpecialKey::129 entering SpecialKey into locator By.xpath: //*[@id="search_query_top"]
+2026-03-29 22:28:07 [TestNG-test-UI_Automation-3] INFO com.pages.MyAccountPage::enterSpecialKey::132 SpecialKey entered into locator By.xpath: //*[@id="search_query_top"]
+2026-03-29 22:28:07 [TestNG-test-UI_Automation-3] INFO com.pages.SearchResultPage::getListOfWebElement::154 getting list of webelements => 
+2026-03-29 22:28:07 [TestNG-test-UI_Automation-2] INFO com.listeners.TestListner::onTestStart::27 Method Name => addAddressTest
+2026-03-29 22:28:07 [TestNG-test-UI_Automation-2] INFO com.listeners.TestListner::onTestStart::28 addAddressTest Discription => 
+2026-03-29 22:28:07 [TestNG-test-UI_Automation-2] INFO com.listeners.TestListner::onTestStart::29 addAddressTest Belongs To Groups => []
+2026-03-29 22:28:07 [TestNG-test-UI_Automation-2] INFO com.pages.HomePage::clickOn::100 clicking on locator => By.xpath: //*[contains(text(),"Sign in")]
+2026-03-29 22:28:07 [TestNG-test-UI_Automation-3] INFO com.pages.SearchResultPage::clickOn::87 clicking on WebElement => [[ChromeDriver: chrome on windows (0c062a9369c025b393d37391e04c9887)] -> xpath: //h5//*[@title="Printed Summer Dress"]]
+2026-03-29 22:28:08 [TestNG-test-UI_Automation-3] INFO com.pages.SearchResultPage::clickOn::89 successfully clicked on WebElement => [[ChromeDriver: chrome on windows (0c062a9369c025b393d37391e04c9887)] -> xpath: //h5//*[@title="Printed Summer Dress"]]
+2026-03-29 22:28:08 [TestNG-test-UI_Automation-3] INFO com.pages.ProductDetailsPage::selectFromDropdown::107 selecting M from dropdown locator=> By.xpath: //*[@id='group_1']
+2026-03-29 22:28:08 [TestNG-test-UI_Automation-2] INFO com.pages.HomePage::clickOn::103 successfully clicked on locator => By.xpath: //*[contains(text(),"Sign in")]
+2026-03-29 22:28:08 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::clearInputField::114 clearing the previous text from inputfield By.id: email
+2026-03-29 22:28:08 [TestNG-test-UI_Automation-3] INFO com.pages.ProductDetailsPage::selectFromDropdown::111 option M selected
+2026-03-29 22:28:08 [TestNG-test-UI_Automation-3] INFO com.pages.ProductDetailsPage::clickOn::100 clicking on locator => By.xpath: //span[.='Add to cart']
+2026-03-29 22:28:08 [TestNG-test-UI_Automation-3] INFO com.pages.ProductDetailsPage::clickOn::103 successfully clicked on locator => By.xpath: //span[.='Add to cart']
+2026-03-29 22:28:08 [TestNG-test-UI_Automation-3] INFO com.pages.ProductDetailsPage::clickOnViaJavaScriptExecutor::94 clicking on locator => By.xpath: //*[contains(text(),'Proceed to checkout')]
+2026-03-29 22:28:09 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::clearInputField::117 text field cleard
+2026-03-29 22:28:09 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::enterText::122 entering text into locator By.id: email
+2026-03-29 22:28:09 [TestNG-test-UI_Automation-3] INFO com.pages.ProductDetailsPage::clickOnViaJavaScriptExecutor::97 successfully clicked on WebElement => [[ChromeDriver: chrome on windows (0c062a9369c025b393d37391e04c9887)] -> xpath: //*[contains(text(),'Proceed to checkout')]]
+2026-03-29 22:28:09 [TestNG-test-UI_Automation-3] INFO com.pages.ProductDetailsPage::clickOnViaJavaScriptExecutor::94 clicking on locator => By.xpath: (//*[contains(text(),'Proceed to checkout')])[2]
+2026-03-29 22:28:09 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::enterText::125 text entered into locator By.id: email
+2026-03-29 22:28:09 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::clearInputField::114 clearing the previous text from inputfield By.id: passwd
+2026-03-29 22:28:09 [TestNG-test-UI_Automation-3] INFO com.pages.ProductDetailsPage::clickOnViaJavaScriptExecutor::97 successfully clicked on WebElement => [[ChromeDriver: chrome on windows (0c062a9369c025b393d37391e04c9887)] -> xpath: (//*[contains(text(),'Proceed to checkout')])[2]]
+2026-03-29 22:28:09 [TestNG-test-UI_Automation-3] INFO com.pages.ProductDetailsPage::clickOnViaJavaScriptExecutor::94 clicking on locator => By.xpath: (//*[contains(text(),'Proceed to checkout')])[2]
+2026-03-29 22:28:09 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::clearInputField::117 text field cleard
+2026-03-29 22:28:09 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::enterText::122 entering text into locator By.id: passwd
+2026-03-29 22:28:09 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::enterText::125 text entered into locator By.id: passwd
+2026-03-29 22:28:09 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::clickOn::100 clicking on locator => By.id: SubmitLogin
+2026-03-29 22:28:09 [TestNG-test-UI_Automation-3] INFO com.pages.ProductDetailsPage::clickOnViaJavaScriptExecutor::97 successfully clicked on WebElement => [[ChromeDriver: chrome on windows (0c062a9369c025b393d37391e04c9887)] -> xpath: (//*[contains(text(),'Proceed to checkout')])[2]]
+2026-03-29 22:28:09 [TestNG-test-UI_Automation-3] INFO com.pages.ProductDetailsPage::clickOn::100 clicking on locator => By.xpath: //*[@id='uniform-cgv']
+2026-03-29 22:28:10 [TestNG-test-UI_Automation-3] INFO com.pages.ProductDetailsPage::clickOn::103 successfully clicked on locator => By.xpath: //*[@id='uniform-cgv']
+2026-03-29 22:28:10 [TestNG-test-UI_Automation-3] INFO com.pages.ProductDetailsPage::clickOnViaJavaScriptExecutor::94 clicking on locator => By.xpath: (//*[contains(text(),'Proceed to checkout')])[2]
+2026-03-29 22:28:10 [TestNG-test-UI_Automation-3] INFO com.pages.ProductDetailsPage::clickOnViaJavaScriptExecutor::97 successfully clicked on WebElement => [[ChromeDriver: chrome on windows (0c062a9369c025b393d37391e04c9887)] -> xpath: (//*[contains(text(),'Proceed to checkout')])[2]]
+2026-03-29 22:28:10 [TestNG-test-UI_Automation-3] INFO com.listeners.TestListner::onTestSuccess::39 productCheckoutTest PASSED
+2026-03-29 22:28:10 [TestNG-test-UI_Automation-3] INFO com.pages.HomePage::quitBrowser::188 quitting browser
+2026-03-29 22:28:10 [TestNG-test-UI_Automation-2] INFO com.pages.LoginPage::clickOn::103 successfully clicked on locator => By.id: SubmitLogin
+2026-03-29 22:28:10 [TestNG-test-UI_Automation-2] INFO com.pages.MyAccountPage::clickOn::100 clicking on locator => By.xpath: //a[@title="Add my first address"]//span
+2026-03-29 22:28:10 [TestNG-test-UI_Automation-2] ERROR com.listeners.TestListner::onTestFailure::45 addAddressTest FAILED
+2026-03-29 22:28:10 [TestNG-test-UI_Automation-2] ERROR com.listeners.TestListner::onTestFailure::46 no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title="Add my first address"]//span"}
+  (Session info: chrome=146.0.7680.165)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.19'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4d823ad6b1ef9116897178c44d12e72a, findElement {value=//a[@title="Add my first address"]//span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 145.0.7632.76 (ee36f024f43a..., userDataDir: C:\Users\A20008~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61259}, goog:processID: 25024, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61259/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d823ad6b1ef9116897178c44d12e72a
+2026-03-29 22:28:10 [TestNG-test-UI_Automation-2] INFO com.listeners.TestListner::onTestFailure::55 capturing screenshot for faild method
+2026-03-29 22:28:10 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::<init>::44 launching browser => CHROME
+2026-03-29 22:28:11 [TestNG-test-UI_Automation-2] INFO com.listeners.TestListner::onTestFailure::57 Attaching scrrenshot to extentreport
+2026-03-29 22:28:11 [TestNG-test-UI_Automation-2] INFO com.pages.HomePage::quitBrowser::188 quitting browser
+2026-03-29 22:28:16 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::maximizeWindow::82 Maximizing browser window
+2026-03-29 22:28:16 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestStart::27 Method Name => searchProductTest
+2026-03-29 22:28:16 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestStart::28 searchProductTest Discription => To search the product
+2026-03-29 22:28:16 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestStart::29 searchProductTest Belongs To Groups => [smoke, e2e, sanity]
+2026-03-29 22:28:16 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::clickOn::100 clicking on locator => By.xpath: //*[contains(text(),"Sign in")]
+2026-03-29 22:28:16 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::clickOn::103 successfully clicked on locator => By.xpath: //*[contains(text(),"Sign in")]
+2026-03-29 22:28:16 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::clearInputField::114 clearing the previous text from inputfield By.id: email
+2026-03-29 22:28:16 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::clearInputField::117 text field cleard
+2026-03-29 22:28:16 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::enterText::122 entering text into locator By.id: email
+2026-03-29 22:28:16 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::enterText::125 text entered into locator By.id: email
+2026-03-29 22:28:16 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::clearInputField::114 clearing the previous text from inputfield By.id: passwd
+2026-03-29 22:28:17 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::clearInputField::117 text field cleard
+2026-03-29 22:28:17 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::enterText::122 entering text into locator By.id: passwd
+2026-03-29 22:28:17 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::enterText::125 text entered into locator By.id: passwd
+2026-03-29 22:28:17 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::clickOn::100 clicking on locator => By.id: SubmitLogin
+2026-03-29 22:28:17 [TestNG-test-UI_Automation-1] INFO com.pages.LoginPage::clickOn::103 successfully clicked on locator => By.id: SubmitLogin
+2026-03-29 22:28:17 [TestNG-test-UI_Automation-1] INFO com.pages.MyAccountPage::clearInputField::114 clearing the previous text from inputfield By.xpath: //*[@id="search_query_top"]
+2026-03-29 22:28:17 [TestNG-test-UI_Automation-1] INFO com.pages.MyAccountPage::clearInputField::117 text field cleard
+2026-03-29 22:28:17 [TestNG-test-UI_Automation-1] INFO com.pages.MyAccountPage::enterText::122 entering text into locator By.xpath: //*[@id="search_query_top"]
+2026-03-29 22:28:17 [TestNG-test-UI_Automation-1] INFO com.pages.MyAccountPage::enterText::125 text entered into locator By.xpath: //*[@id="search_query_top"]
+2026-03-29 22:28:17 [TestNG-test-UI_Automation-1] INFO com.pages.MyAccountPage::enterSpecialKey::129 entering SpecialKey into locator By.xpath: //*[@id="search_query_top"]
+2026-03-29 22:28:18 [TestNG-test-UI_Automation-1] INFO com.pages.MyAccountPage::enterSpecialKey::132 SpecialKey entered into locator By.xpath: //*[@id="search_query_top"]
+2026-03-29 22:28:18 [TestNG-test-UI_Automation-1] INFO com.pages.SearchResultPage::getTextFromListOfWebElement::143 getting text from list of webelements => By.xpath: //h5//*[@title="Printed Summer Dress"]
+2026-03-29 22:28:18 [TestNG-test-UI_Automation-1] INFO com.pages.SearchResultPage::getText::160 getting text from WebElement => [[ChromeDriver: chrome on windows (ec23a635874b7960f355cb3993dc6127)] -> xpath: //h5//*[@title="Printed Summer Dress"]]
+2026-03-29 22:28:18 [TestNG-test-UI_Automation-1] INFO com.pages.SearchResultPage::getText::160 getting text from WebElement => [[ChromeDriver: chrome on windows (ec23a635874b7960f355cb3993dc6127)] -> xpath: //h5//*[@title="Printed Summer Dress"]]
+2026-03-29 22:28:18 [TestNG-test-UI_Automation-1] INFO com.pages.SearchResultPage::getText::160 getting text from WebElement => [[ChromeDriver: chrome on windows (ec23a635874b7960f355cb3993dc6127)] -> xpath: //h5//*[@title="Printed Summer Dress"]]
+2026-03-29 22:28:18 [TestNG-test-UI_Automation-1] INFO com.listeners.TestListner::onTestSuccess::39 searchProductTest PASSED
+2026-03-29 22:28:18 [TestNG-test-UI_Automation-1] INFO com.pages.HomePage::quitBrowser::188 quitting browser
+2026-03-29 22:28:18 [main] INFO com.listeners.TestListner::onFinish::74 Test suite completed

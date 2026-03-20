@@ -6,6 +6,10 @@
     <test name="UI_Automation">
         <classes>
             <class name="com.tests.LoginTest3"/>
+            <class name="com.tests.AddAddressTest"/>
+            <class name="com.tests.LoginWithInvalidCredentials"/>
+            <class name="com.tests.ProductCheckoutTest"/>
+            <class name="com.tests.ProductSearchTest"/>
         </classes>
     </test>
 </suite>
