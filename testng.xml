@@ -2,7 +2,7 @@
 <suite name="Suite" parallel="methods" thread-count="3" verbose="1">
     <parameter name="browser" value="chrome"/>
     <parameter name="isLambdaTest" value="false"/>
-    <parameter name="isHeadless" value="true"/>
+    <parameter name="isHeadless" value="false"/>
     <test name="UI_Automation">
         <classes>
             <class name="com.tests.LoginTest3"/>

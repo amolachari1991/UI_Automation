@@ -14,7 +14,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <browser>chrome</browser>
     <isLambdaTest>false</isLambdaTest>
-    <isHeadless>true</isHeadless>
+    <isHeadless>false</isHeadless>
   </properties>
 <build>
   <plugins>
